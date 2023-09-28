@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1  style="font-family: cursive;">CONTACT US</h1>
+    </header>
+    <main>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 style="color: chocolate; font-family: cursive;">Reach Us</h2>
+                <p>Email: <b>tapacad@gmail.com</b></p>
+                <p>Phone: <b>+91 1234567891</b></p>
+                <p>Address: <b>Rajajinagar, Bengaluru, Karnataka 560010</b></p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497624.05254479893!2d76.94702708906247!3d12.99180219999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dd04c97b969%3A0xb9919df007104d14!2sTap%20Academy%20-%20Rajajinagar!5e0!3m2!1sen!2sus!4v1695580496884!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-form">
+                <h2  style="font-family: cursive;">Contact Form</h2>
+                <form action="submit.html" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mobile">Phone Number:</label>
+                    <input type="mobile" id="mobile" name="mobile" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="back">
+        <button onclick="history.back()">Back</button>
+    </div>
+    <footer>
+        <p>&copy; 2023 TAP Academy</p>
+    </footer>
+</body>
+</html>
